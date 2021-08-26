@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    max-width: 1700px;
+}
+header{
+    background-color: rgb(2, 3, 87);
+    padding-top: 4px;
+    
+}
+.top-nav{
+    padding-left:5ex ;
+}
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 3px 4px;
+    border: none;
+    border-radius: 25px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    float: left;
+    border: none;
+    border-radius: 25px;
+}
+
+nav.top-nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav.center-nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li span.follow-us{
+    text-align: center;
+    border: transparent;
+    color: white;
+    border-radius: 25px;
+}
+
+.headimg-1{
+    margin-top: 5px;
+    margin-left: 100px;
+    width: 600px;
+    height: 140px;
+}
+img.why-wisdom{
+    margin-top: 5px;
+    display: inline-block; 
+    border-color:black;
+    width: 125px;
+    height: 110px;
+    
+ 
+    
+}
+
+span.admqry{
+    margin-top: 5px;
+    display: block;
+    font-size: 20px;
+    float: right;
+    margin-top: 30px;
+    transform: translate(-55ex); 
+}
+
+
+.center-nav{
+    background-color: rgb(2, 3, 87);
+    margin-top: 10px;
+    padding-top: 4px;
+    position: sticky-top;
+    
+}
+
+.center-nav ul li{
+    display: inline-block;
+    
+    margin-left: 10px;
+    padding: 0px 0px;
+    
+    
+}
+.center-nav li a{
+    text-decoration: none;
+    color: white;
+    border: transparent;
+    border-radius: 25px;
+    padding: 10px 10px;
+    float: left;
+}
+div.form-box{
+    margin-top:10ex;
+    margin-bottom: 10ex;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid rgb(172, 169, 169); 
+    border-radius: 5px;
+}
+ div p.adm-form{
+    font-size: 30px;
+    font-family: Bell MT;
+    margin-top: 20px;margin-bottom:20px
+ }
+
+ div form{
+    float: left;
+    margin-left:20px;
+    margin-top: 50px;
+ }
+
+div form p.std-det{
+    float: left;
+    font-size: 30px;
+    font-family: Verdana;
+    color: rgb(112, 112, 133);
+    }
+div form label{
+    float: left;
+    margin-top: 15px;
+    font-family: Bell Mt;
+    font: outline;
+    font-size: 20px;
+}
+
+div form input.rect-box{
+    float: left;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+div form input.rect-box:hover{
+    border: 2px solid red;
+    border-radius: 5px;
+    
+}
+
+div form input.radio-box{
+    float:left;
+    margin-top: 10px;
+    
+    height: 30px;
+}
+input.radio-yes{
+    margin: 50px;
+}
+input.radio-no{
+    margin: 25px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+footer span{
+    font-size: 25px;
+}
+footer p{
+    font-size: 30px;
+    padding-top: 10px;
+}
+footer a{ 
+    color: blue;
+    text-decoration: none;
+}
+footer a:hover{
+    color:red;
+}
